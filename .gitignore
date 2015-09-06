@@ -26,3 +26,34 @@
 *.exe
 *.out
 *.app
+
+############################################################
+## Visual Micro
+############################################################
+*.sln
+*.sdf
+*.opensdf
+
+
+.vs/
+[Vv]isual [Mm]icro/
+*.vcxproj
+*.vcxproj.*
+
+
+## Build results
+
+[Dd]ebug/
+[Rr]elease/
+x64/
+build/
+[Bb]in/
+[Oo]bj/
+
+
+## Windows Ignores
+
+$RECYCLE.BIN/
+Thumbs.db
+ehthumbs.db
+Desktop.ini
