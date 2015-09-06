@@ -1,4 +1,9 @@
-// AsyncServo.h
+/* 
+AsyncServo
+by Chris Fraser <http://blog.chrosfraser.co.za>
+
+https://github.com/chrisfraser/asyncServo
+*/
 
 #ifndef _ASYNCSERVO_h
 #define _ASYNCSERVO_h

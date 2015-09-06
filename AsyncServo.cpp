@@ -1,6 +1,10 @@
-// 
-// 
-// 
+/* 
+AsyncServo
+by Chris Fraser <http://blog.chrosfraser.co.za>
+
+https://github.com/chrisfraser/asyncServo
+*/
+
 #if defined(ARDUINO) && ARDUINO >= 100
 #include "arduino.h"
 #else
@@ -33,7 +37,7 @@ void AsyncServoClass::update()
 	{
 #if (ASYNCSERVO_DEBUG == 1)
 		Serial.println("-----------------------");
-		Serial.println("un-paused");
+		Serial.println("Un-paused");
 		Serial.println("-----------------------");
 #endif
 		_unpauseMillis = 0;
@@ -154,11 +158,6 @@ uint8_t AsyncServoClass::goTo(uint8_t position, short maxIncrementDegrees, short
 void AsyncServoClass::play()
 {
 	_running = true;
-#if (ASYNCSERVO_DEBUG == 1)
-	Serial.println("-----------------------");
-	Serial.println("Play");
-	Serial.println("-----------------------");
-#endif
 }
 
 // Loop steps with a delay between
