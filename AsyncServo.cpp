@@ -17,7 +17,7 @@ void AsyncServoClass::begin(uint8_t pin, short maxIncrementDegrees, short increm
 {
 	_maxIncrementDegrees = maxIncrementDegrees;
 	_incrementDelay = incrementDelay;
-	_writeIndex = 0;
+	_writeIndex = -1;
 	_base.attach(pin);
 }
 
